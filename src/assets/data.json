@@ -2,43 +2,53 @@
     "frontendMentor":[
         {
             "title":"QR Code Component",
-            "url":"https://github.com/iqbalpa/qr-code-component"
+            "url":"https://github.com/iqbalpa/qr-code-component",
+            "imagePath":"./assets/images/satu.jpg"
         },
         {
             "title":"NFT Preview Card Component",
-            "url":"https://github.com/iqbalpa/nft-preview-card-component"
+            "url":"https://github.com/iqbalpa/nft-preview-card-component",
+            "imagePath":"./assets/images/dua.jpg"
         },
         {
             "title":"Order Summary Component",
-            "url":"https://github.com/iqbalpa/order-summary-component"
+            "url":"https://github.com/iqbalpa/order-summary-component",
+            "imagePath":"./assets/images/tiga.jpg"
         },
         {
             "title":"Stats Preview Card Component",
-            "url":"https://github.com/iqbalpa/stats-preview-card-component"
+            "url":"https://github.com/iqbalpa/stats-preview-card-component",
+            "imagePath":"./assets/images/empat.jpg"
         },
         {
             "title":"Product Preview Card Component",
-            "url":"https://github.com/iqbalpa/product-preview-card-component"
+            "url":"https://github.com/iqbalpa/product-preview-card-component",
+            "imagePath":"./assets/images/lima.jpg"
         },
         {
             "title":"Column Preview Card Component",
-            "url":"https://github.com/iqbalpa/column-preview-card-component"
+            "url":"https://github.com/iqbalpa/column-preview-card-component",
+            "imagePath":"./assets/images/enam.jpg"
         },
         {
             "title":"Profile Card Component",
-            "url":"https://github.com/iqbalpa/profile-card-component"
+            "url":"https://github.com/iqbalpa/profile-card-component",
+            "imagePath":"./assets/images/tujuh.jpg"
         },
         {
             "title":"Singele Price Grid Component",
-            "url":"https://github.com/iqbalpa/single-price-grid-component"
+            "url":"https://github.com/iqbalpa/single-price-grid-component",
+            "imagePath":"./assets/images/delapan.jpg"
         },
         {
             "title":"Four Card Feature Section",
-            "url":"https://github.com/iqbalpa/four-card-feature-section"
+            "url":"https://github.com/iqbalpa/four-card-feature-section",
+            "imagePath":"./assets/images/sembilan.jpg"
         },
         {
             "title":"Social Proof Section",
-            "url":"https://github.com/iqbalpa/social-proof-section"
+            "url":"https://github.com/iqbalpa/social-proof-section",
+            "imagePath":"./assets/images/sepuluh.jpg"
         }
     ]
 }
