@@ -6,10 +6,10 @@ const FEMentor = () => {
 
     // get data from src/assets/data.json using useeffect
     useEffect(() => {
-        fetch("/assets/data.json")
+        fetch("./../../assets/data.json")
             .then(res => res.json())
             .then(dat => setData(dat))
-            .catch(err => console.log(err));
+            .catch(() => console.log("fetching data failed"));
     }, []);
 
     return (
@@ -17,7 +17,6 @@ const FEMentor = () => {
             <p className="text-2xl font-bold text-green-500 drop-shadow-lg">Frontend Mentor Challenge</p>
 
             <div className="grid grid-cols-3 grid-rows-4">
-                {/* create loop for the data */}
                 {data.map(item => (
                     <Card key={item.id} title={item.title} url={item.url} imagePath={item.imagePath} />
                 ))}

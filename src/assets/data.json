@@ -4,61 +4,61 @@
             "id":1,
             "title":"QR Code Component",
             "url":"https://github.com/iqbalpa/qr-code-component",
-            "imagePath":"./assets/images/satu.jpg"
+            "imagePath":"/projects/fem/satu.jpg"
         },
         {
             "id":2,
             "title":"NFT Preview Card Component",
             "url":"https://github.com/iqbalpa/nft-preview-card-component",
-            "imagePath":"./assets/images/dua.jpg"
+            "imagePath":"/projects/fem/dua.jpg"
         },
         {
             "id":3,
             "title":"Order Summary Component",
             "url":"https://github.com/iqbalpa/order-summary-component",
-            "imagePath":"./assets/images/tiga.jpg"
+            "imagePath":"/projects/fem/tiga.jpg"
         },
         {
             "id":4,
             "title":"Stats Preview Card Component",
             "url":"https://github.com/iqbalpa/stats-preview-card-component",
-            "imagePath":"./assets/images/empat.jpg"
+            "imagePath":"/projects/fem/empat.jpg"
         },
         {
             "id":5,
             "title":"Product Preview Card Component",
             "url":"https://github.com/iqbalpa/product-preview-card-component",
-            "imagePath":"./assets/images/lima.jpg"
+            "imagePath":"/projects/fem/lima.jpg"
         },
         {
             "id":6,
             "title":"Column Preview Card Component",
             "url":"https://github.com/iqbalpa/column-preview-card-component",
-            "imagePath":"./assets/images/enam.jpg"
+            "imagePath":"/projects/fem/enam.jpg"
         },
         {
             "id":7,
             "title":"Profile Card Component",
             "url":"https://github.com/iqbalpa/profile-card-component",
-            "imagePath":"./assets/images/tujuh.jpg"
+            "imagePath":"/projects/fem/tujuh.jpg"
         },
         {
             "id":8,
             "title":"Singele Price Grid Component",
             "url":"https://github.com/iqbalpa/single-price-grid-component",
-            "imagePath":"./assets/images/delapan.jpg"
+            "imagePath":"/projects/fem/delapan.jpg"
         },
         {
             "id":9,
             "title":"Four Card Feature Section",
             "url":"https://github.com/iqbalpa/four-card-feature-section",
-            "imagePath":"./assets/images/sembilan.jpg"
+            "imagePath":"/projects/fem/sembilan.jpg"
         },
         {
             "id":10,
             "title":"Social Proof Section",
             "url":"https://github.com/iqbalpa/social-proof-section",
-            "imagePath":"./assets/images/sepuluh.jpg"
+            "imagePath":"/projects/fem/sepuluh.jpg"
         }
     ]
 }
