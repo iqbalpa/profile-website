@@ -7,7 +7,7 @@ const Carousel = ({ listData }) => {
             {listData.map(item => (
                 <Card key={item.id} title={item.title} url={item.url} imagePath={item.imagePath} />
             ))}
-        </main>
+        </main>  
     )
 }
 
