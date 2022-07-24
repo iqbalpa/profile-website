@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { GrNext, GrPrevious } from 'react-icons/gr';
 
 const Carousel = ({ listData }) => {
@@ -22,6 +22,13 @@ const Carousel = ({ listData }) => {
             setCurrentIndex(currentIndex - 1);
         }
     };
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            handleNextClick();
+        }, 3000); // change interval time here
+        return () => clearInterval(interval);
+    }, [currentIndex]);
 
     return (
         <main className="w-[37rem] m-auto">
