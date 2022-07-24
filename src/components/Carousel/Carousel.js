@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { GrNext, GrPrevious } from 'react-icons/gr';
 
 const Carousel = ({ listData }) => {
     const images = listData.map(item => item.imagePath);
@@ -21,12 +22,6 @@ const Carousel = ({ listData }) => {
         }
     };
 
-    useEffect(() => {
-        setInterval(() => {
-            handleNextClick();
-        }, 3000);
-    }, [currentIndex]);
-
     return (
         <main className="w-[37rem] m-auto">
             <div className="w-full relative select-none">
@@ -36,8 +31,8 @@ const Carousel = ({ listData }) => {
                 </div>
 
                 <div className="absolute w-full top-1/2 transform -translate-y-1/2 flex justify-between items-start px-5">
-                    <button onClick={handlePrevClick}>Previous</button>
-                    <button onClick={handleNextClick}>Next</button>
+                    <button onClick={handlePrevClick}><GrPrevious /></button>
+                    <button onClick={handleNextClick}><GrNext /></button>
                 </div>
             </div>
         </main> 
