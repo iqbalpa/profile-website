@@ -1,13 +1,46 @@
-import React from "react";
-import Card from "../Card/Card";
+import React, { useEffect, useState } from "react";
 
 const Carousel = ({ listData }) => {
+    const images = listData.map(item => item.imagePath);
+    const titles = listData.map(item => item.title);
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const handleNextClick = () => {
+        if (currentIndex === images.length - 1) {
+            setCurrentIndex(0);
+        } else {
+            setCurrentIndex(currentIndex + 1);
+        }
+    };
+    const handlePrevClick = () => {
+        if (currentIndex === 0) {
+            setCurrentIndex(images.length - 1);
+        } else {
+            setCurrentIndex(currentIndex - 1);
+        }
+    };
+
+    useEffect(() => {
+        setInterval(() => {
+            handleNextClick();
+        }, 3000);
+    }, [currentIndex]);
+
     return (
-        <main  className="text-white grid grid-cols-3 grid-rows-4 gap-5">
-            {listData.map(item => (
-                <Card key={item.id} title={item.title} url={item.url} imagePath={item.imagePath} />
-            ))}
-        </main>  
+        <main className="w-[37rem] m-auto">
+            <div className="w-full relative select-none">
+                <div className="bg-red-300 p-4 rounded-xl flex flex-col items-center justify-center">
+                    <img src={images[currentIndex]} alt="" />
+                    <p>{titles[currentIndex]}</p>
+                </div>
+
+                <div className="absolute w-full top-1/2 transform -translate-y-1/2 flex justify-between items-start px-5">
+                    <button onClick={handlePrevClick}>Previous</button>
+                    <button onClick={handleNextClick}>Next</button>
+                </div>
+            </div>
+        </main> 
     )
 }
 
