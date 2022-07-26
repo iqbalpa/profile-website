@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <main className="bg-MidnightBlue text-white flex flex-row items-center justify-evenly pt-28 pb-4">
+        <main id="1" className="bg-MidnightBlue text-white flex flex-row items-center justify-evenly pt-28 pb-4">
             <div className="w-80">
                 <p className="text-4xl font-bold mb-8">IQBAL PAHLEVI AMIN</p>
                 <a href="/resume.pdf" download>
