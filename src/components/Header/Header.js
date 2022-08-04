@@ -8,7 +8,9 @@ const Header = () => {
             <div className="flex flex-row items-center pr-6 text-md font-semibold">
                 <a href="#1" className="m-3 duration-75 hover:text-green-500">About</a>
                 <a href="#2" className="m-3 duration-75 hover:text-green-500">Projects</a>
-                <button className="hover:scale-105 m-3 p-2 rounded-lg border-2 border-green-500 duration-300 hover:bg-green-500 text-green-500 hover:text-ResolutionBlue">Contact Me</button>
+                <a href="mailto:iqbalpahlevi07@gmail.com">
+                    <button className="hover:scale-105 m-3 p-2 rounded-lg border-2 border-green-500 duration-300 hover:bg-green-500 text-green-500 hover:text-ResolutionBlue">Contact Me</button>
+                </a>
             </div>
         </header>
     );
