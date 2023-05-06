@@ -37,7 +37,7 @@ const Project = () => {
 
 	return (
 		<>
-			<div id="2" className="flex flex-col justify-center items-center bg-ResolutionBlue py-14">
+			<div id="2" className="flex flex-col justify-center items-center bg-MidnightBlue py-14">
 				<h1 className="text-2xl text-green-500 font-bold">P R O J E C T</h1>
 				<p className="text-lg">Here is the project I have worked with lately</p>
 				<div className="grid grid-cols-3 gap-14 mt-8">
