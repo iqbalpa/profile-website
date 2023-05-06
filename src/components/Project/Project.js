@@ -4,6 +4,7 @@ import Netflix from "../../assets/netflix-clone.png";
 import FaceDetector from "../../assets/face-detector.png";
 import ParisHousing from "../../assets/paris-housing-price.png";
 import NumbersApi from "../../assets/numbers-api.png";
+import { Fade } from "react-reveal";
 
 const Project = () => {
 	const data = {
@@ -38,13 +39,15 @@ const Project = () => {
 	return (
 		<>
 			<div id="2" className="flex flex-col justify-center items-center bg-MidnightBlue py-14">
-				<h1 className="text-2xl text-green-500 font-bold">P R O J E C T</h1>
-				<p className="text-lg">Here is the project I have worked with lately</p>
-				<div className="grid grid-cols-3 gap-14 mt-8">
-					{data.projects.map((project, index) => (
-						<Card key={index} imageLink={project.imageLink} title={project.title} description={project.description} link={project.link} />
-					))}
-				</div>
+				<Fade bottom>
+					<h1 className="text-2xl text-green-500 font-bold">P R O J E C T</h1>
+					<p className="text-lg">Here is the project I have worked with lately</p>
+					<div className="grid grid-cols-3 gap-14 mt-8">
+						{data.projects.map((project, index) => (
+							<Card key={index} imageLink={project.imageLink} title={project.title} description={project.description} link={project.link} />
+						))}
+					</div>
+				</Fade>
 			</div>
 		</>
 	);
