@@ -1,4 +1,5 @@
 import React from "react";
+import ContactButton from "../ContactButton/ContactButton";
 import Logo from "../../assets/logo-1.png";
 
 const Header = () => {
@@ -13,9 +14,7 @@ const Header = () => {
 				<a href="#2" className="text-xl m-3 duration-75 hover:text-green-500">
 					Projects
 				</a>
-				<a href="mailto:iqbalpahlevi07@gmail.com">
-					<button className="hover:scale-105 m-3 p-2 text-lg rounded-lg border-2 border-green-500 duration-300 hover:bg-green-500 text-green-500 hover:text-ResolutionBlue">Contact Me</button>
-				</a>
+				<ContactButton />
 			</div>
 		</header>
 	);
