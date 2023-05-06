@@ -2,6 +2,7 @@ import React from "react";
 import Netflix from "../../assets/netflix-clone.png";
 import FaceDetector from "../../assets/face-detector.png";
 import ParisHousing from "../../assets/paris-housing-price.png";
+import NumbersApi from "../../assets/numbers-api.png";
 
 const Project = () => {
 	return (
@@ -47,6 +48,20 @@ const Project = () => {
 							<p>Kaggle Competition deployed machine learning model into website using Streamlit</p>
 							<div className="card-actions justify-end">
 								<a href="https://iqbalpa-final-project-educare-app-aq96jt.streamlit.app/" target="_blank" rel="noreferrer">
+									<button className="btn btn-success hover:scale-105">check it out</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div className="card card-compact w-96 bg-base-100 shadow-xl">
+						<figure>
+							<img src={NumbersApi} alt="Numbers API" />
+						</figure>
+						<div className="card-body">
+							<h2 className="card-title">Numbers Random Fact</h2>
+							<p>Generate random fact of a number using numbersapi.com</p>
+							<div className="card-actions justify-end">
+								<a href="https://iqbalpa-numbers-api.vercel.app/" target="_blank" rel="noreferrer">
 									<button className="btn btn-success hover:scale-105">check it out</button>
 								</a>
 							</div>
