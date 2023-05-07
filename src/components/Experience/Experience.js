@@ -19,13 +19,13 @@ const Experience = () => {
 												<div class="w-full lg:pr-8">
 													<div class="w-full text-xl text-right">
 														<h1 className="font-bold">Fasilkom UI</h1>
-														<h2>January 2023 - Present</h2>
+														<h2 className="text-lg">January 2023 - Present</h2>
 													</div>
 												</div>
 											</div>
 											<div class="flex items-start justify-start w-full mx-auto">
 												<div class="w-full lg:pl-8 text-left">
-													<p className="text-lg">Teaching Assistant for Programming Foundations 1</p>
+													<p className="text-xl">Teaching Assistant for Programming Foundations 1</p>
 												</div>
 											</div>
 										</div>
@@ -39,13 +39,13 @@ const Experience = () => {
 												<div class="w-full lg:pr-8">
 													<div class="w-full text-xl text-right">
 														<h1 className="font-bold">RISTEK Fasilkom UI</h1>
-														<h2>March 2023 - Present</h2>
+														<h2 className="text-lg">March 2023 - Present</h2>
 													</div>
 												</div>
 											</div>
 											<div class="flex items-start justify-start w-full mx-auto">
 												<div class="w-full lg:pl-8 text-left">
-													<p className="text-lg">Member Data Science & Analytics</p>
+													<p className="text-xl">Member of Data Science & Analytics</p>
 												</div>
 											</div>
 										</div>
@@ -60,13 +60,13 @@ const Experience = () => {
 												<div class="w-full lg:pr-8">
 													<div class="w-full text-xl text-right">
 														<h1 className="font-bold">Rumbel BEM UI</h1>
-														<h2>February 2023 - Present</h2>
+														<h2 className="text-lg">February 2023 - Present</h2>
 													</div>
 												</div>
 											</div>
 											<div class="flex items-start justify-start w-full mx-auto">
 												<div class="w-full lg:pl-8 text-left">
-													<p className="text-lg">Staff of Software Engineering</p>
+													<p className="text-xl">Staff of Software Engineering</p>
 												</div>
 											</div>
 										</div>
@@ -81,13 +81,13 @@ const Experience = () => {
 												<div class="w-full lg:pr-8">
 													<div class="w-full text-xl text-right">
 														<h1 className="font-bold">Fasilkom UI</h1>
-														<h2>August 2022 - January 2023</h2>
+														<h2 className="text-lg">August 2022 - January 2023</h2>
 													</div>
 												</div>
 											</div>
 											<div class="flex items-start justify-start w-full mx-auto">
 												<div class="w-full lg:pl-8 text-left">
-													<p className="text-lg">Teaching Assistant for Calculus 1</p>
+													<p className="text-xl">Teaching Assistant for Calculus 1</p>
 												</div>
 											</div>
 										</div>
@@ -102,13 +102,13 @@ const Experience = () => {
 												<div class="w-full lg:pr-8">
 													<div class="w-full text-xl text-right">
 														<h1 className="font-bold">Skill Up</h1>
-														<h2>November 2021 - April 2022</h2>
+														<h2 className="text-lg">November 2021 - April 2022</h2>
 													</div>
 												</div>
 											</div>
 											<div class="flex items-start justify-start w-full mx-auto">
 												<div class="w-full lg:pl-8 text-left">
-													<p className="text-lg">Technology Apprentice</p>
+													<p className="text-xl">Technology Apprentice</p>
 												</div>
 											</div>
 										</div>
