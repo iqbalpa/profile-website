@@ -7,11 +7,16 @@ function ContactButton() {
 
 	const handleClick = () => {
 		const emailUrl = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-		window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}&tf=1&source=mailto&shva=1`;
+		window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(
+			subject
+		)}&body=${encodeURIComponent(body)}&tf=1&source=mailto&shva=1`;
 	};
 
 	return (
-		<button className="hover:scale-105 m-3 p-2 text-lg rounded-lg border-2 border-green-500 duration-300 hover:bg-green-500 text-green-500 hover:text-ResolutionBlue" onClick={handleClick}>
+		<button
+			className="hover:scale-105 m-3 p-2 text-lg rounded-lg border-2 border-white duration-300 hover:bg-white text-white hover:text-ResolutionBlue"
+			onClick={handleClick}
+		>
 			Contact Me
 		</button>
 	);
